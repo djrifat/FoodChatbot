@@ -115,6 +115,7 @@ To configure your agent's webhook, return to the Facebook Developer Console:
 2. Click the **Verify and Save button**
 
 ![](https://dialogflow.com/docs/images/integrations/facebook/004-facebook.png)
+
 You'll be taken back to the settings page and **Webhooks** should have a "Complete" status.
 ---
 > **Note:** If you're using rich messages, be sure the messaging_postbacks option is checked.
