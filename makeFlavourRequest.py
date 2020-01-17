@@ -7,7 +7,7 @@ import requests
 from random import randint
 
 # Base URL for FLavourspace API requests
-__baseUrl = "http://52.59.154.51/api/recipes/"
+__baseUrl = ""
       
 # @BRIEF: Retrieves data from Flavourspace API
 # @PARAM: req, request the specified action on DIalogflow) parameter
@@ -22,7 +22,7 @@ def flavourData(req, vegan):
     complexity = getRecipeComplexity(req)
     # API headers
     headers = {
-            'Authorization': "Token 38189c8e0321694be206fbdc8f7158066648fb5e",
+            'Authorization': "",
             'Content-Type': "application/json",
             'Cache-Control': "no-cache"
         }
@@ -46,7 +46,7 @@ def flavourData(req, vegan):
 def randomFlavourData():
     # API headers
     headers = {
-            'Authorization': "Token 38189c8e0321694be206fbdc8f7158066648fb5e",
+            'Authorization': "",
             'Content-Type': "application/json",
             'Cache-Control': "no-cache"
         }
@@ -77,7 +77,7 @@ def flavourDataRecipeNotOke(req, vegan):
     complexity = getRecipeComplexity(req)
     # API headers
     headers = {
-            'Authorization': "Token 38189c8e0321694be206fbdc8f7158066648fb5e",
+            'Authorization': "",
             'Content-Type': "application/json",
             'Cache-Control': "no-cache"
         }
